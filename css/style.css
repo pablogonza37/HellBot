@@ -1,0 +1,63 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+.form {
+  padding: 0 50px;
+}
+.redes a {
+  color: white;
+}
+
+.img-carouselProductos {
+  height: 450px;
+  object-fit: cover;
+}
+
+/* agregar codigo para dispositivos sm */
+
+@media all and (max-width: 767px) {
+  #imgError404 {
+    width: 80%;
+  }
+  #img-cajas {
+    width: 100%;
+  }
+  .form {
+    padding: 0 10px;
+  }
+  form {
+    margin-top: 20px;
+  }
+}
+
+/* dispositivos md */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  #imgError404 {
+    width: 60%;
+  }
+  #img-cajas {
+    width: 100%;
+  }
+  .form {
+    padding: 0 20px;
+  }
+}
+
+/* dispositivos grandes lg */
+
+@media all and (min-width: 992px) {
+  #imgError404 {
+    width: 50%;
+  }
+  #img-cajas {
+    width: 100%;
+  }
+  .img-carouselProductos{
+    height: 500px;
+  }
+}

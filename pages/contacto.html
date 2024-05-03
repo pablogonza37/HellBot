@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="venta de insumos para impresoras 3d" />
+    <meta
+      name="keywords"
+      content="filamento, pls, tpu, impresoras 3d, prusa, resina"
+    />
+    <meta name="author" content="Pablo Gonzalez" />
+    <link rel="icon" type="image/png" href="../img/logo-footer.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>HELLBOT</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logo_simple_blanco.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/impresoras.html"
+                  >Impresoras</a
+                >
+              </li>
+              <!-- agregar una pagina con el error 404 -->
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="m-2">
+      <section class="container-fluid my-5">
+        <div class="row form">
+          <div class="col-lg-6 col-md-6">
+            <img id="img-cajas" src="../img/cajas.png" alt="" />
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <form class="ms-lg-5">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Nombre y Apellido:</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="ej: Juan Perez"
+                  required
+                  minlength="5"
+                  maxlength="50"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Pais</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="ej: Argentina"
+                  required
+                  minlength="5"
+                  maxlength="30"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Provincia o Estado</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="ej: Tucuman"
+                  required
+                  minlength="5"
+                  maxlength="50"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Ej: juanperez@example.com"
+                  required
+                  minlength="10"
+                  maxlength="320"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Telefono</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Ej: 3815333000"
+                  required
+                  minlength="5"
+                  maxlength="30"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Consulta</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="agregue aquí su consulta"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-light py-3">
+      <section class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-3 text-center text-lg-start">
+            <img src="../img/logo-footer.png" alt="logo 3dPrint" />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h4>Productos</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Filamentos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Impresora de filamento</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >impresoras con resina</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h4>Soporte</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Software</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Perfiles</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Manuales</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h4>3dPrint</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Garantia</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Contacto</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Distribuidores</a
+                >
+              </li>
+            </ul>
+            <p>Siguenos en nuestras redes:</p>
+            <div class="d-flex justify-content-end m-3 redes">
+              <a href="../pages/error404.html"
+                ><i class="bi bi-instagram fs-3 m-2"></i
+              ></a>
+              <a href="../pages/error404.html"
+                ><i class="bi bi-facebook fs-3 m-2"></i
+              ></a>
+              <a href="../pages/error404.html"
+                ><i class="bi bi-twitter fs-3 m-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

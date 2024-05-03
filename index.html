@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="venta de insumos para impresion 3d" />
+    <meta
+      name="keywords"
+      content="filamento, pla, tpu, impresoras 3d, prusa, resina"
+    />
+    <meta name="author" content="Pablo Gonzalez" />
+    <link rel="icon" type="image/png" href="./img/logo-footer.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>HELLBOT</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./img/logo_simple_blanco.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/impresoras.html"
+                  >Impresoras</a
+                >
+              </li>
+              <!-- agregar una pagina con el error 404 -->
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- pueden cambiarse los nombres de id en bootstrap-->
+      <section
+        id="carouselProductos"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselProductos"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselProductos"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselProductos"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselProductos"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/Ecofilas-1620x1080.jpg"
+              class="d-block w-100 img-carouselProductos"
+              alt="filamento ecofila"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/DSC_5525-1620x1080.jpg"
+              class="d-block w-100 img-carouselProductos"
+              alt="colores de filamentos"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/softcolors-1620x1080.jpg"
+              class="d-block w-100 img-carouselProductos"
+              alt="filamentos softcolor"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/DSC_5525-1620x1080.jpg"
+              class="d-block w-100 img-carouselProductos"
+              alt="colores de filamentos"
+            />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselProductos"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselProductos"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <!-- aqui agregar la seccon o articulo con info de un producto nuevo-->
+      <section class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Forma parte de un nuevo consumo sustentable</h2>
+            <p class="lead">
+              En hellbo proponemos una nueva forma ecologica de consumir
+              filamentos 3d sin dañaar el planeta
+            </p>
+            <p><b>Gana el planeta, ganas vos, ganamos todos</b></p>
+          </div>
+          <div class="col-md-6">
+            <img class="w-100 img-fluid" src="./img/petg-650x400.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid bg-light py-4">
+        <div class="container">
+          <h2>3 Lineas de colores, creatividad infinita</h2>
+          <article class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img
+                  src="./img/Ecofila-Random-650x400.jpg"
+                  class="card-img-top"
+                  alt="filamento celeste"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">ECOFILA RANDOM</h5>
+                  <p class="card-text">
+                    Colores aleatorios en un mismo filamento
+                  </p>
+                  <ul>
+                    <li>Impresiones que luego serán pintadas</li>
+                    <li>Impresiones que servirán para moldes</li>
+                    <li>Prototipos, pruebas, etc.</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" disabled>
+                    Comprar
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card h-100">
+                <img
+                  src="./img/Ecofila-480x295.png"
+                  class="card-img-top"
+                  alt="filamento celeste"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">ECOFILA</h5>
+                  <p class="card-text">
+                    Consumir filamentos 3D sin dañar al planeta
+                  </p>
+                  <ul>
+                    <li>Tapas de spool reutilizables impresas en PLA</li>
+                    <li>Centro de cartón reciclable</li>
+                    <li>Bolsa biodegradablede.</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" disabled>
+                    Comprar
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="card">
+                <img
+                  src="./img/XL-480x295.png"
+                  class="card-img-top"
+                  alt="filamento celeste"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">ECOFILA y ECOFILA RECARGA XL</h5>
+                  <p class="card-text">
+                    Nuevo formato 2Kg. Impresiones sin pausas.
+                  </p>
+                  <ul>
+                    <li>Granjas de impresoras 3D.</li>
+                    <li>Impresiones sin interrupciones, más producción.</li>
+                    <li>Impresiones a gran escala.</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" disabled>
+                    Comprar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="container my-4">
+        <h2>Todos nuestros filamentos</h2>
+        <article class="row">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Amarillo</h5>
+              </div>
+              <img
+                src="./img/Amarillo-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento amarillo"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Blanco</h5>
+              </div>
+              <img
+                src="./img/Blanco-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento blanco"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Aqua Pastel</h5>
+              </div>
+              <img
+                src="./img/Aqua-Pastel-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento aqua pastel"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Aqua</h5>
+              </div>
+              <img
+                src="./img/Aqua-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento aqua"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Arena Pastel</h5>
+              </div>
+              <img
+                src="./img/Arena-Pastel-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Arena Pastel"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Azul</h5>
+              </div>
+              <img
+                src="./img/Azul-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Azul"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Celeste</h5>
+              </div>
+              <img
+                src="./img/Celeste-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Celeste"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Celeste Pastel</h5>
+              </div>
+              <img
+                src="./img/Celeste-Pastel-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Celeste-Pastel"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Cobalto</h5>
+              </div>
+              <img
+                src="./img/Cobalto-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Cobalto"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Menta Pastel</h5>
+              </div>
+              <img
+                src="./img/Menta-Pastel-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Menta-Pastel"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Marmol</h5>
+              </div>
+              <img
+                src="./img/Marmol-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Marmol"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="card">
+              <div class="card-header">
+                <h5>Marron</h5>
+              </div>
+              <img
+                src="./img/Marron-800x800.jpg"
+                class="card-img-top"
+                alt="Filamento Marron"
+              />
+              <div class="card-body text-center">
+                <button
+                  class="btn btn-outline-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalFilamento"
+                >
+                  <i class="bi bi-eye">Vermas</i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <nav
+          aria-label="Page navigation example"
+          class="d-flex justify-content-center"
+        >
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="./pages/error404.html">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="./pages/error404.html">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="./pages/error404.html">3</a>
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link"
+                href="./pages/error404.html"
+                aria-label="Next"
+              >
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalFilamento"
+      tabindex="-1"
+      aria-labelledby="modalFilamentoAmarilloLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="modalFilamentoAmarilloLabel">
+              Filamento Amarillo
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="w-100"
+              src="./img/Amarillo-800x800.jpg"
+              alt="Filamento amarillo"
+            />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            pariatur ad rem minima earum reprehenderit deleniti, officiis
+            maiores eveniet non illo dolores excepturi modi tempore quos ullam
+            vero omnis! Earum.
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-light py-3">
+      <section class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-3 text-center text-lg-start">
+            <img src="./img/logo-footer.png" alt="logo 3dPrint" />
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h4>Productos</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Filamentos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Impresora de filamento</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >impresoras con resina</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h4>Soporte</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Software</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Perfiles</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Manuales</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h4>3dPrint</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Garantia</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Contacto</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-light link-underline-opacity-0 link-underline-opacity-25-hover"
+                  >Distribuidores</a
+                >
+              </li>
+            </ul>
+            <p>Siguenos en nuestras redes:</p>
+            <div class="d-flex justify-content-end m-3 redes">
+              <a href="../pages/error404.html"
+                ><i class="bi bi-instagram fs-3 m-2"></i
+              ></a>
+              <a href="../pages/error404.html"
+                ><i class="bi bi-facebook fs-3 m-2"></i
+              ></a>
+              <a href="../pages/error404.html"
+                ><i class="bi bi-twitter fs-3 m-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
